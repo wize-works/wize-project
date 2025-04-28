@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/wize-works/wize-project/compare/v1.0.2...v1.1.0) (2025-04-28)
+
+
+### Features
+
+* add CORS support with configurable allowed origins ([8ca1c65](https://github.com/wize-works/wize-project/commit/8ca1c65d10a142999f4876826ac8a1ea001af21b))
+
 ## [1.0.2](https://github.com/wize-works/wize-project/compare/v1.0.1...v1.0.2) (2025-04-28)
 
 
