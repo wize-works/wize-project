@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/wize-works/wize-project/compare/v1.0.0...v1.0.1) (2025-04-28)
+
+
+### Bug Fixes
+
+* update ingress configuration to enforce SSL redirection and change service type to ClusterIP ([f933c84](https://github.com/wize-works/wize-project/commit/f933c8483a1dd7467f5483d56390b4e3ef9bfec2))
+
 # 1.0.0 (2025-04-28)
 
 
