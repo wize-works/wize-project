@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/wize-works/wize-project/compare/v1.1.0...v1.1.1) (2025-04-28)
+
+
+### Bug Fixes
+
+* add 'wize-api-key' to allowed headers in CORS configuration ([8e2347e](https://github.com/wize-works/wize-project/commit/8e2347e3d12ad5ff0c73da7546b9990cf7daf942))
+
 # [1.1.0](https://github.com/wize-works/wize-project/compare/v1.0.2...v1.1.0) (2025-04-28)
 
 
