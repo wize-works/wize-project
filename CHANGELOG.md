@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/wize-works/wize-project/compare/v1.0.1...v1.0.2) (2025-04-28)
+
+
+### Bug Fixes
+
+* correct typo in ingress annotation for SSL redirection ([144809b](https://github.com/wize-works/wize-project/commit/144809b418c99dbd0b2afc2b0082ec6e2cf21dad))
+
 ## [1.0.1](https://github.com/wize-works/wize-project/compare/v1.0.0...v1.0.1) (2025-04-28)
 
 
