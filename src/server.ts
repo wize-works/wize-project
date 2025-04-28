@@ -54,7 +54,7 @@ const start = async () => {
             callback(null, {
                 origin: true, // Reflect the request origin
                 methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-                allowedHeaders: ['Content-Type', 'Authorization'],
+                allowedHeaders: ['Content-Type', 'Authorization', 'wize-api-key'],
                 credentials: true
             });
         } else {
