@@ -20,6 +20,7 @@
         "@sentry/profiling-node": "^9.13.0",
         "@wizeworks/graphql-factory-mongo": "^1.21.3",
         "chalk": "^5.4.1",
+        "cors": "^2.8.5",
         "dotenv": "^16.5.0",
         "express": "^5.1.0",
         "graphql": "^16.10.0",
