@@ -24,7 +24,7 @@ metadata:
     kubernetes.io/ingress.class: nginx
     cert-manager.io/cluster-issuer: wizeworks-encrypt
     nginx.ingress.kubernetes.io/rewrite-target: /$2
-    nginx.ingress.kuberenetes.io/force-ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
 spec:
   ingressClassName: nginx
   tls:
