@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/wize-works/wize-project/compare/v1.1.1...v1.2.0) (2025-04-28)
+
+
+### Features
+
+* implement CORS configuration with dynamic allowed origins ([c1687f9](https://github.com/wize-works/wize-project/commit/c1687f9debd563c7439791455c58067c1384ff7a))
+
 ## [1.1.1](https://github.com/wize-works/wize-project/compare/v1.1.0...v1.1.1) (2025-04-28)
 
 
