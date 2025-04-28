@@ -142,7 +142,7 @@ jobs:
           ACR_NAME: ${{ secrets.ACR_NAME }}
           MONGO_URI: ${{ secrets.MONGO_URI }}
           SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
-          DB_NAME: ${{ secrets.DB_NAME }}
+          DB_NAME: ${{ vars.DB_NAME }}
 
       - name: Deploy to AKS
         run: |
