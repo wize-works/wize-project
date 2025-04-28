@@ -26,7 +26,6 @@
         "graphql-scalars": "^1.24.2",
         "graphql-subscriptions": "^3.0.0",
         "graphql-yoga": "^5.13.4",
-        "mongodb": "^6.16.0"
     },
     "devDependencies": {
         "@semantic-release/changelog": "^6.0.3",
