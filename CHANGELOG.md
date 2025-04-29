@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/wize-works/wize-project/compare/v1.2.0...v1.2.1) (2025-04-29)
+
+
+### Bug Fixes
+
+* update @wizeworks/graphql-factory-mongo to version 1.21.4 and improve MongoDB connection logging ([2eb75c9](https://github.com/wize-works/wize-project/commit/2eb75c924b7743892f068ab79f82b0c52b295b98))
+
 # [1.2.0](https://github.com/wize-works/wize-project/compare/v1.1.1...v1.2.0) (2025-04-28)
 
 
