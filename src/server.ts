@@ -14,6 +14,7 @@ import {
 import { logger } from './config/logger';
 import { registerCors } from './config/cors';
 import { useFormattedErrors } from './utils/formatError';
+
 var cors = require('cors');
 
 const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;

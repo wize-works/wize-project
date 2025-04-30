@@ -1,24 +1,40 @@
-import { ILogger } from "@wizeworks/graphql-factory-mongo";
+import Sentry from './sentry';
+import { ILogger } from '@wizeworks/graphql-factory-mongo';
 
 export const logger: ILogger = {
-    error: (message: string) => {
-        const date = new Date();
-        const formattedDate = date.toISOString().replace(/T/, ' ').replace(/\..+/, '');
-        console.error(`[${formattedDate}] ERROR: ${message}`);
+    info: (message, meta) => {
+        console.info(`[INFO] ${message}`, meta);
+        Sentry.addBreadcrumb({
+            message,
+            level: 'info',
+            data: meta,
+        });
     },
-    warn: (message: string) => {
-        const date = new Date();
-        const formattedDate = date.toISOString().replace(/T/, ' ').replace(/\..+/, '');
-        console.warn(`[${formattedDate}] WARNING: ${message}`);
+    warn: (message, meta) => {
+        console.warn(`[WARN] ${message}`, meta);
+        Sentry.captureMessage(message, {
+            level: 'warning',
+            extra: meta,
+        });
     },
-    info: (message: string) => {
-        const date = new Date();
-        const formattedDate = date.toISOString().replace(/T/, ' ').replace(/\..+/, '');
-        console.info(`[${formattedDate}] INFO: ${message}`);
+    error: (error, meta) => {
+        const message = typeof error === 'string' ? error : error.message;
+        console.error(`[ERROR] ${message}`, meta);
+        Sentry.captureException(
+            error instanceof Error ? error : new Error(message),
+            {
+                extra: meta,
+            }
+        );
     },
-    debug: (message: string) => {
-        const date = new Date();
-        const formattedDate = date.toISOString().replace(/T/, ' ').replace(/\..+/, '');
-        console.debug(`[${formattedDate}] DEBUG: ${message}`);
+    debug: (message, meta) => {
+        if (process.env.NODE_ENV !== 'production') {
+            console.debug(`[DEBUG] ${message}`, meta);
+            Sentry.addBreadcrumb({
+                message,
+                level: 'debug',
+                data: meta,
+            });
+        }
     },
 };
