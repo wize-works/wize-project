@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/wize-works/wize-project/compare/v1.2.1...v1.3.0) (2025-04-30)
+
+
+### Features
+
+* update environment configuration, enhance logger with Sentry integration, and clean up tsconfig ([478b4a8](https://github.com/wize-works/wize-project/commit/478b4a8a392f90998fee99058e626b2f972a0e3b))
+
 ## [1.2.1](https://github.com/wize-works/wize-project/compare/v1.2.0...v1.2.1) (2025-04-29)
 
 
