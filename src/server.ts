@@ -19,7 +19,7 @@ var cors = require('cors');
 
 const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/';
-const database = process.env.DB_NAME || 'wize-example';
+const database = process.env.DB_NAME || 'wize-project';
 const mongoClient = new MongoClient(MONGO_URI);
 let currentSchemas: any = null;
 
