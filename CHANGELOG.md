@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/wize-works/wize-project/compare/v1.3.1...v1.3.2) (2025-05-03)
+
+
+### Bug Fixes
+
+* update default database name from 'wize-example' to 'wize-project' ([c0a0f10](https://github.com/wize-works/wize-project/commit/c0a0f10e03cf9002d54135bc85775d3170687b81))
+
 ## [1.3.1](https://github.com/wize-works/wize-project/compare/v1.3.0...v1.3.1) (2025-04-30)
 
 
