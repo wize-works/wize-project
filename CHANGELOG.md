@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/wize-works/wize-project/compare/v1.4.1...v1.4.2) (2025-05-04)
+
+
+### Bug Fixes
+
+* update @wizeworks/graphql-factory-mongo to version 1.27.0 and remove MongoDB connection log ([2d9ab58](https://github.com/wize-works/wize-project/commit/2d9ab586579f5a09cfcf2aac14d107ae23795589))
+
 ## [1.4.1](https://github.com/wize-works/wize-project/compare/v1.4.0...v1.4.1) (2025-05-03)
 
 
