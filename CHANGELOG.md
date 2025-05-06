@@ -1,3 +1,17 @@
+# [1.7.0](https://github.com/wize-works/wize-project/compare/v1.6.0...v1.7.0) (2025-05-06)
+
+
+### Bug Fixes
+
+* format deploy.yml for consistent indentation ([0286800](https://github.com/wize-works/wize-project/commit/02868001e6d2f406766ee9f20d2f3b03fb618ba0))
+* update deploy.yml for non-interactive AKS auth ([a4a0b74](https://github.com/wize-works/wize-project/commit/a4a0b74e6ad29ea0fe6ed670b181157b47b4bf9d))
+
+
+### Features
+
+* update @wizeworks/graphql-factory-mongo to version 1.30.0 and add mongodb dependency ([a2165b5](https://github.com/wize-works/wize-project/commit/a2165b519e857c7488999529ca296cce381a156e))
+* update @wizeworks/graphql-factory-mongo to version 1.31.0 ([14d133c](https://github.com/wize-works/wize-project/commit/14d133c61282437cfadbe15abbce3e2da696e0b5))
+
 # [1.6.0](https://github.com/wize-works/wize-project/compare/v1.5.0...v1.6.0) (2025-05-05)
 
 
