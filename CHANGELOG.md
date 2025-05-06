@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/wize-works/wize-project/compare/v1.7.0...v1.7.1) (2025-05-06)
+
+
+### Bug Fixes
+
+* format deploy.yml for consistent indentation ([d87f81e](https://github.com/wize-works/wize-project/commit/d87f81ec92216635876bcb501eba5dd59f24b6df))
+
 # [1.7.0](https://github.com/wize-works/wize-project/compare/v1.6.0...v1.7.0) (2025-05-06)
 
 
